@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-joao-celino",
+  "version": "1.0.0",
+  "description": "Utility scripts for portfolio-joao-celino",
+  "main": "index.html",
+  "scripts": {
+    "generate-images-manifest": "node scripts/generate-images-manifest.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

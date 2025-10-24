@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Celino - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="translations.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>João Celino</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-translate="nav.home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-translate="nav.about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-translate="nav.experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="language-toggle" id="languageToggle">
+                        <span class="lang-flag">🇺🇸</span>
+                        <span class="lang-text">EN</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-translate="hero.greeting">Hello, I'm</span> <span class="highlight">João Celino</span>
+                </h1>
+                <p class="hero-subtitle">
+                    QA Engineer | Software Test Engineer
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary" data-translate="hero.learnMore">Learn more</a>
+                    <a href="#experience" class="btn btn-secondary" data-translate="hero.myExperience">My experience</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="images/perfil.jpeg" alt="João Celino" data-company="perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="about.title">About Me</h2>
+                <p class="section-subtitle" data-translate="about.subtitle">Get to know a bit about my journey</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-translate="about.storyTitle">My Story</h3>
+                    <p data-translate="about.story1">
+                        I am a dedicated QA Engineer with strong experience in manual and automated testing across various industries, including fashion, finance, and gaming. Over the years, I have developed expertise in tools like Postman, Cypress, Selenium, and Playwright, working with frameworks and methodologies like Scrum and Agile.
+                    </p>
+                    <p data-translate="about.story2">
+                        I have a proven track record of ensuring software quality through rigorous frontend and backend testing, defect management, and continuous improvement of testing processes. I am passionate about technology and always seek opportunities to apply and expand my skills, especially in automation and improving test efficiency.
+                    </p>
+                    <div class="skills">
+                        <h4 data-translate="about.skillsTitle">Main Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span data-translate="about.skills.manualTesting">Manual Testing</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.selenium">Selenium</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.cypress">Cypress</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.playwright">Playwright</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.postman">Postman</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.scrum">Scrum</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.agile">Agile</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.stressTest">Stress Test</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.regression">Regression Test</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.whiteBox">White Box Testing</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.blackBox">Black Box Testing</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.devopsTests">DevOps Tests</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.aiTesting">AI Testing Creation</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.apiTests">API Testing</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.dbTests">Database Testing</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.mobileTests">Mobile Testing</span>
+                            </div>
+                            <div class="skill-item">
+                                <span data-translate="about.skills.gameTests">Game Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>9+</h3>
+                        <p data-translate="about.yearsExperience">Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8+</h3>
+                        <p data-translate="about.testingTools">Testing Tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="experience.title">My Experience</h2>
+                <p class="section-subtitle" data-translate="experience.subtitle">A journey of learning and growth</p>
+            </div>
+            <div class="experience-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="experience-card active">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <img src="images/kuenhe-nagel.png" alt="Kuehne+Nagel" style="width: 40px; height: 40px; object-fit: contain;" data-company="kuenhe-nagel">
+                                </div>
+                                <div class="card-info">
+                                    <h3>Software Test Engineer</h3>
+                                    <p class="company">Kuehne+Nagel</p>
+                                    <p class="period">Oct 2023 - Present</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p data-translate="experience.kuehneNagel">
+                                    Identification of test scenarios and conditions, development and execution of manual and automated test cases. Defect and fault control, frontend and backend testing execution, and automated test execution using Scrum and Agile methodologies.
+                                </p>
+                                <div class="technologies">
+                                    <span class="tech-tag">Selenium</span>
+                                    <span class="tech-tag">Cypress</span>
+                                    <span class="tech-tag">Postman</span>
+                                    <span class="tech-tag">Scrum</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <img src="images/arkadium-2.jpeg" alt="Arkadium" style="width: 40px; height: 40px; object-fit: contain;" data-company="arkadium-2">
+                                </div>
+                                <div class="card-info">
+                                    <h3>Software Test Engineer</h3>
+                                    <p class="company">Arkadium</p>
+                                    <p class="period">Mar 2023 - Sep 2023</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p data-translate="experience.arkadium">
+                                    Identification of test scenarios and conditions, development and execution of manual and automated test cases. Defect and fault control, game testing, execution of automated unit tests for games using Scrum and Agile methodologies.
+                                </p>
+                                <div class="technologies">
+                                    <span class="tech-tag">Unity</span>
+                                    <span class="tech-tag">Selenium</span>
+                                    <span class="tech-tag">Cypress</span>
+                                    <span class="tech-tag">Agile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <img src="images/farfetch-2.png" alt="FARFETCH" style="width: 40px; height: 40px; object-fit: contain;" data-company="farfetch-2">
+                                </div>
+                                <div class="card-info">
+                                    <h3>Software Test Engineer</h3>
+                                    <p class="company">FARFETCH</p>
+                                    <p class="period">Nov 2021 - Mar 2023</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Identificação de cenários e condições de teste, elaboração e execução de casos de teste manuais 
+                                    e automatizados. Controle de falhas e defeitos, execução de testes de frontend e backend, 
+                                    e execução de testes automatizados utilizando metodologias Scrum e Agile.
+                                </p>
+                                <div class="technologies">
+                                    <span class="tech-tag">Selenium</span>
+                                    <span class="tech-tag">Cypress</span>
+                                    <span class="tech-tag">Postman</span>
+                                    <span class="tech-tag">Scrum</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <img src="images/itau-2.png" alt="Itaú Unibanco" style="width: 40px; height: 40px; object-fit: contain;" data-company="itau-2">
+                                </div>
+                                <div class="card-info">
+                                    <h3>Software Engineer</h3>
+                                    <p class="company">Itaú Unibanco</p>
+                                    <p class="period">Nov 2019 - Ago 2021</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Identificação de cenários e condições de teste, elaboração e execução de casos de teste manuais 
+                                    e automatizados. Controle de falhas e defeitos, execução de testes de frontend e backend, 
+                                    e execução de testes automatizados utilizando metodologias Scrum e Agile.
+                                </p>
+                                <div class="technologies">
+                                    <span class="tech-tag">Selenium</span>
+                                    <span class="tech-tag">Postman</span>
+                                    <span class="tech-tag">Scrum</span>
+                                    <span class="tech-tag">Agile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="carousel-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="contact.title">Let's Connect</h2>
+                <p class="section-subtitle" data-translate="contact.subtitle">Get in touch with me through social networks</p>
+            </div>
+            <div class="contact-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-celino-a67671104/" target="_blank" class="social-link linkedin">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>LinkedIn</h3>
+                            <p data-translate="contact.linkedin">Connect professionally</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/joaocelinoo" target="_blank" class="social-link github">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>GitHub</h3>
+                            <p data-translate="contact.github">Check my projects</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 data-translate="contact.contactInfo">Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>joaocelino97@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(+351) 965705151</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Porto, Portugal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 João Celino. <span data-translate="footer.rights">All rights reserved.</span></p>
+                <p><span data-translate="footer.developed">Developed with</span> ❤️ <span data-translate="footer.coffee">and lots of coffee</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
